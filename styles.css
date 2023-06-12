@@ -1,0 +1,192 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+header{
+	height: 12vh;
+	background-color: #424141;
+	justify-content: space-around;
+}
+.cabecalho{
+	 display: flex;
+	 justify-content: space-around;
+}
+.logoem{
+	margin-right: 10% ;
+	margin-top: 1%;
+	width: 4%;
+}
+.nav-menu{
+	font-size: 100%;
+	margin-left: 20% ;
+	margin-top: 15px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display:inline-block;
+	margin-right: 20px;
+	
+}
+
+nav a {
+	color: #ece9f1;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+}
+
+#book-info, #author-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+#book-info img, #author-info img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+.textfoote{
+	background-color: #424141;
+	color: #b19999;
+	text-align: center;
+	padding: 20px;
+}
+.arroba{
+	margin-right: 200%;
+	color: darkgoldenrod;
+}
+.pb-2{
+	color: darkgoldenrod;
+}
+#barradepesquisa{
+	margin-top: 1%;
+}
+
+.form-select{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#carouselExampleInterval{
+	margin-block-end: 4%;
+	margin-top: 4%;
+	margin-left: 35%;
+	margin-right: 4%;
+	overflow: hidden;
+	justify-content: center;
+	height: 80%;
+}
+.carousel-item{
+	height: 100%;
+}
+.carousel-control-prev{
+	background: transparent;
+	border: none;
+}
+.carousel-control-next{
+	background: transparent;
+	border: none;
+}
+.visually-hidden{
+	color: rgb(250, 245, 245);
+	padding: 10px;
+	background-color: black ;
+	border-radius: 10%;
+}
+
+.navbar-bg-body-tertiary{
+	margin-top: 5%;
+	align-items: center;
+}
+
+#pro2{
+	display:flex;
+	flex-wrap: wrap;
+}
+#pro{
+	display:flex;
+	flex-wrap: wrap;
+}
+#pro3{
+	display:flex;
+	flex-wrap: wrap;
+}
+#todcard{
+    background-color: darkolivegreen;
+    margin: 10px;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px #333;
+  }
+
+  #itenscar img{
+    width: 15%;
+    height: 150px;
+  }
+
+.card {
+    background-color: darkgoldenrod;
+    width: 14%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 10px 10px 27px;
+    box-shadow: 5px 5px 5px darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img{
+   width: 80%;
+   height: 70%;
+   border-radius: 5px;
+   
+  }
+
+  .card h4{
+    color: darkgoldenrod;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   font-size: 15px;
+  }
+
+  .card h5{
+    color: darkgoldenrod;
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+  }
+
+  .card button{
+    background-color: darkgray;
+    color:  black;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 35px;
+    border-radius: 10px;
+    transition: background 0.5s;
+    cursor: pointer;
+    
+  }
+  .logo a:hover{
+	text-decoration: none;
+	color:#DAA520 ;
+	transition: 0.3s;
+  }
